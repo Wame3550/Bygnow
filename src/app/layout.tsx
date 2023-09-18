@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="da-DK">
       <GoogleAnalytics GA_MEASUREMENT_ID={"G-GFQDZ6WMW1"} />
       <body className={`${quicksand.className} bg-white bg-none`}>
         <Header />

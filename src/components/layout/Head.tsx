@@ -40,8 +40,8 @@ export async function generateMetadata({
     alternates: {
       canonical:
         path == undefined
-          ? "https://www.hvacpoolerga.com"
-          : "https://www.hvacpoolerga.com/" + path,
+          ? "https://www.bygnow.dk"
+          : "https://www.bygnow.dk/" + path,
     },
   };
 }

@@ -4,12 +4,15 @@ export const GET_SLUGS_PUBLIC = gql`
   query GetSlugQuery {
     blog(filter: { status: { _eq: "published" }, website: { _eq: "bygnow" } }) {
       slug
+      date_updated
     }
     best(filter: { status: { _eq: "published" } }) {
       slug
+      date_updated
     }
     pages(filter: { status: { _eq: "published" } }) {
       slug
+      date_updated
     }
   }
 `;
@@ -18,12 +21,15 @@ export const GET_SLUGS_PRIVATE = gql`
   query GetSlugQuery {
     blog(filter: { website: { _eq: "bygnow" } }) {
       slug
+      date_updated
     }
     best {
       slug
+      date_updated
     }
     pages {
       slug
+      date_updated
     }
   }
 `;

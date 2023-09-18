@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    host: "https://www.hvacpoolerga.com/",
-    sitemap: "https://www.hvacpoolerga.com/sitemap_index.xml",
+    host: "https://www.bygnow.dk/",
+    sitemap: "https://www.bygnow.dk/sitemap_index.xml",
   };
 }

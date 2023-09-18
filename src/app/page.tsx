@@ -5,11 +5,11 @@ import Faq from "../components/ui/sections/Faq";
 import Choose from "../components/ui/sections/Choose";
 import Hero from "../components/ui/sections/Hero";
 
-const title = "HVAC Pooler GA | HVAC Company in Pooler, Georgia";
+const title = "Bygnow | Find Din Lokale Håndværkere Hos Os";
 const description =
-  "Looking for reliable HVAC services in Pooler, GA? At HVAC Pooler GA, we provide expert heating, ventilation, and air conditioning solutions.";
+  "Bygnow hjælper dig med at finde en håndværker til at udføre dine håndværksopgaver ved at tilbyde dig 3 gratis tilbud fra håndværkere i dit lokale område.";
 const keywords = ["hvac pooler ga"];
-const url = "https://www.hvacpoolerga.com/";
+const url = "https://www.bygnow.dk";
 
 export const metadata = {
   title: title,

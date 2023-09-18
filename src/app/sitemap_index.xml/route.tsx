@@ -21,9 +21,9 @@ export const GET = async () => {
       .join("")}
       </sitemapindex>`;
 
-  data("https://www.hvacpoolerga.com/");
+  data("https://www.bygnow.dk/");
 
-  return new Response(data("https://www.hvacpoolerga.com/"), {
+  return new Response(data("https://www.bygnow.dk/"), {
     headers: {
       "Content-Type": "text/xml",
     },

@@ -146,7 +146,7 @@ export default function Header() {
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="tel:+18442040938"
+            href="/"
             className="text-base font-semibold leading-6 text-white bg-secondary py-2 px-6 rounded-full flex items-center gap-2"
           >
             <IoPricetag />
@@ -224,7 +224,7 @@ export default function Header() {
               </div>
               <div className="py-6">
                 <a
-                  href="tel:+18442040938"
+                  href="/"
                   className="-mx-3 rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:cursor-pointer bg-secondary flex items-center gap-2"
                 >
                   <IoPricetag />
