@@ -45,7 +45,7 @@ export default function Home() {
           "Vi hjælper dig med at finde den rette håndværke eller fagfolk til at udføre dine opgaver, så du undgår at bruge tid og penge."
         }
         image_local="professional-repairman-with-casing-wrench-during-inspection-repair-faucet-kitchen-plumbing-repairing-with-wrench-with-tool-belt-when-repairing-faucet-kitchen.jpg"
-        button={{ text: "Find håndværkere", link: "tel:+18442040938" }}
+        button={{ text: "Find håndværkere", link: "/" }}
       />
       <main className="space-y-16 mt-10 mb-20">
         <Services

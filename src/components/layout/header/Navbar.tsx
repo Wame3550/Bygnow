@@ -101,7 +101,7 @@ const Navbar: React.FC = () => {
                   )} */}
                 </ul>
               </nav>
-              <a href={"tel:+18442040938"}>
+              <a href={"/"}>
                 <button className="flex items-center text-sm text-white cursor-pointer lg:text-base rounded-full px-6 py-2.5  bg-secondary hover:bg-opacity-90s">
                   <BsFillTelephoneFill />
                   <span className="pl-2 not-italic font-semibold font-quicksand">
