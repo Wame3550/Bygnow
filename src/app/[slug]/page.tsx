@@ -10,6 +10,7 @@ import Services from "../../components/ui/sections/Services";
 import Faq from "../../components/ui/sections/Faq";
 import Hero from "../../components/ui/sections/Hero";
 import { ResolvingMetadata, Metadata } from "next";
+import { notFound } from "next/navigation";
 
 interface IPages {
   pages: {
@@ -69,6 +70,8 @@ export async function generateStaticParams() {
 
   return pages.map((page) => ({ slug: page.slug }));
 }
+
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // read route params

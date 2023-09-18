@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import MainHero from "../components/ui-2/sections/hero/MainHero";
 import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -11,14 +10,14 @@ export default function NotFound() {
           <div className="gap-5 flex flex-col lg:col-span-3 my-auto">
             <div>
               <h1 className="text-[#191919] lg:text-4xl font-bold lg:col-span-8 mx-auto text-2xl md:text-3xl text-center lg:text-left">
-                Oops! You shouldn't see this!
+                Ups! Du burde ikke se dette!
               </h1>
             </div>
             <div className="flex">
               <p className="text-[#191919] col-span-6 text-center lg:text-left">
                 <p>
-                  The page you are looking for no longer exists. Click back to
-                  home page to start over with your search.
+                  Siden du leder efter eksisterer ikke længere. Klik tilbage til
+                  startsiden for at starte forfra med din søgning.
                 </p>
               </p>
             </div>
@@ -27,7 +26,7 @@ export default function NotFound() {
                 href="/"
                 className="text-base font-bold leading-6 text-white bg-secondary py-2.5 px-6 rounded-full flex items-center gap-2 w-fit"
               >
-                Homepage
+                Startsiden
                 <BsArrowRight />
               </a>
             </div>
@@ -37,17 +36,6 @@ export default function NotFound() {
           </div>
         </div>
       </section>
-      {/* <MainHero
-        h2="404"
-        h1="Oops! You shouldn't see this!"
-        button={{ name: "Back to the home page", link: "/" }}
-        description="The page you are looking for no longer exists. Click back to home page to start over with your search."
-        image={{
-          src: "/assets/404.svg",
-          alt: "404 Not found error",
-          height: "h-60",
-        }}
-      /> */}
     </Fragment>
   );
 }
