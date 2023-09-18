@@ -42,10 +42,10 @@ const Hero = ({ title, paragraph, image_local, image_api, button }: IProps) => {
         <div className="mx-auto lg:mx-0 z-20">
           <a
             href={button.link}
-            className="text-base font-bold leading-6 text-white bg-secondary py-2.5 px-6 rounded-full flex items-center gap-2 w-fit"
+            className="text-center text-sm xs:text-base font-bold leading-6 text-white bg-secondary py-1 xs:py-2.5 px-6 rounded-full flex items-center gap-2 w-fit"
           >
             {button.text}
-            <FaArrowRight />
+            <FaArrowRight className="hidden xs:block" />
           </a>
         </div>
       </div>

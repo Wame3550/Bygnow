@@ -16,7 +16,7 @@ const Steps = ({ title, steps }: IProps) => {
       <ul className="grid grid-cols-2 mt-14 gap-10">
         {steps.map((item, index) => {
           return (
-            <li className="border relative">
+            <li className="border relative" key={item.title}>
               <div className="bg-secondary rounded-full px-6 text-white items-center flex justify-center font-bold absolute -translate-y-1/2 translate-x-2/3 text-lg">
                 {index + 1}
               </div>

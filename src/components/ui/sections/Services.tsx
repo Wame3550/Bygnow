@@ -51,7 +51,7 @@ const Services = ({
             {paragraph}
           </p>
         </div>
-        <div className="mx-auto max-w-2xl sm:mt-6 lg:max-w-5xl">
+        <div className="mx-auto max-w-2xl mt-6 lg:max-w-5xl">
           <div
             className={`grid grid-cols-1 md:grid-cols-2 lg:max-w-none lg:grid-cols-3 grid-flow-row gap-y-8 md:gap-8 mx-auto`}
           >
