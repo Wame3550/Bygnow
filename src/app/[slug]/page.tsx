@@ -96,9 +96,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     alternates: {
       canonical: "https://www.bygnow.dk/" + pages[0].slug,
-      languages: {
-        "da-DK": "da-DK",
-      },
     },
     openGraph: {
       title: pages[0].meta_title,

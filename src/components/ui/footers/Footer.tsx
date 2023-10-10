@@ -13,7 +13,12 @@ const Footer: React.FC = () => {
               <div className="flex lg:flex-1">
                 <a href="#" className="-m-1.5 p-1.5 flex items-center gap-2">
                   <div className="lg:h-10 lg:w-40 w-32 h-7 relative">
-                    <Image fill src="/assets/bygnow-logo-white.svg" alt="" />
+                    <Image
+                      fill
+                      sizes="(max-width: 1200px) 100vw, 60vw"
+                      src="/assets/bygnow-logo-white.svg"
+                      alt=""
+                    />
                   </div>
                 </a>
               </div>

@@ -68,6 +68,7 @@ const Services = ({
                             <div className="h-6 w-6 relative">
                               <Image
                                 fill
+                                sizes="(max-width: 1200px) 100vw, 60vw"
                                 src={"/assets/" + item.image}
                                 alt={""}
                               />
@@ -92,6 +93,7 @@ const Services = ({
                           <div className="h-6 w-6 relative">
                             <Image
                               fill
+                              sizes="(max-width: 1200px) 100vw, 60vw"
                               src={`/assets/${item.image}`}
                               alt={item.title}
                             />
@@ -121,6 +123,7 @@ const Services = ({
                             <div className="h-6 w-6 relative">
                               <Image
                                 fill
+                                sizes="(max-width: 1200px) 100vw, 60vw"
                                 src={
                                   "https://www.api.wheelific.com/assets/" +
                                   item.image.id
@@ -148,6 +151,7 @@ const Services = ({
                           <div className="h-6 w-6 relative">
                             <Image
                               fill
+                              sizes="(max-width: 1200px) 100vw, 60vw"
                               src={`/assets/${item.image}`}
                               alt={item.title}
                             />

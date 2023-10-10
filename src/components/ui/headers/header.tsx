@@ -35,17 +35,6 @@ const brancher = [
   },
 ];
 
-const opagver = [
-  {
-    name: "Commercial Heat",
-    href: "/commercial-heat",
-  },
-  {
-    name: "Radiator",
-    href: "/radiator",
-  },
-];
-
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
@@ -55,12 +44,6 @@ export default function Header() {
 
   return (
     <header className="bg-white lg:sticky top-0 z-50">
-      {/* <div className="bg-secondary text-sm font-light">
-        <div className="flex items-center gap-2 justify-center md:justify-end max-w-7xl mx-auto p-1 px-8 text-white"> */}
-      {/* <FiClock /> */}
-      {/* mon - sun (8am - 6pm) */}
-      {/* </div>
-      </div> */}
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 "
         aria-label="Global"
@@ -68,7 +51,12 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
             <div className="lg:h-10 lg:w-40 w-32 h-7 relative">
-              <Image fill src="/assets/bygnow-logo-black.svg" alt="" />
+              <Image
+                fill
+                sizes="(max-width: 1200px) 100vw, 60vw"
+                src="/assets/bygnow-logo-black.svg"
+                alt=""
+              />
             </div>
           </a>
         </div>
@@ -83,18 +71,6 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          {/* <a
-            href="/"
-            className="text-sm font-semibold leading-6 text-white"
-          >
-            For Your Home
-          </a> */}
-          {/* <a
-            href="/about-us/"
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
-            For Your Business
-          </a> */}
           <Popover className="relative focus-visible:outline-none">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 focus-visible:outline-none">
               Brancher
@@ -120,12 +96,6 @@ export default function Header() {
                       key={item.name}
                       className="group relative flex items-center gap-x-6 p-4 text-sm leading-6 hover:bg-gray-50"
                     >
-                      {/* <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon
-                          className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
-                          aria-hidden="true"
-                        />
-                      </div> */}
                       <div className="flex-auto">
                         <a
                           href={item.href}
@@ -134,7 +104,6 @@ export default function Header() {
                           {item.name}
                           <span className="absolute inset-0" />
                         </a>
-                        {/* <p className="mt-1 text-gray-600">{item.description}</p> */}
                       </div>
                     </div>
                   ))}
@@ -181,18 +150,6 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                {/* <a
-                  href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Home
-                </a>
-                <a
-                  href="/about-us"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  About Us
-                </a> */}
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>

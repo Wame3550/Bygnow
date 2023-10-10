@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import { Quicksand } from "next/font/google";
-import GoogleAnalytics from "../components/misc/GoogleAnalytics";
+import GoogleAnalytics from "../misc/GoogleAnalytics";
 import Header from "../components/ui/headers/header";
 import Footer from "../components/ui/footers/Footer";
 
