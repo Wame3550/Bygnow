@@ -119,7 +119,7 @@ export default function Header() {
             className="text-base font-semibold leading-6 text-white bg-secondary py-2 px-6 rounded-full flex items-center gap-2"
           >
             <IoPricetag />
-            Få 3 Gratis Tilbud
+            non blandit massa
           </a>
         </div>
       </nav>

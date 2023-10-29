@@ -4,7 +4,10 @@ import GoogleAnalytics from "../misc/GoogleAnalytics";
 import Header from "../components/ui/headers/header";
 import Footer from "../components/ui/footers/Footer";
 
-const quicksand = Quicksand({ subsets: ["latin"] });
+const quicksand = Quicksand({
+  subsets: ["latin"],
+  variable: "--font-quicksand",
+});
 
 export default function RootLayout({
   children,
@@ -14,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="da-DK">
       <GoogleAnalytics GA_MEASUREMENT_ID={"G-GFQDZ6WMW1"} />
-      <body className={`${quicksand.className} bg-white bg-none`}>
+      <body className={`${quicksand.variable} font-quicksand bg-white bg-none`}>
         <Header />
         {children}
         <Footer />

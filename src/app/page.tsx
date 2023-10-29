@@ -42,10 +42,10 @@ export default function Home() {
       <Hero
         title={"Søger du tilbud på håndværkere og fagfolk?"}
         paragraph={
-          "Vi hjælper dig med at finde den rette håndværke eller fagfolk til at udføre dine opgaver, så du undgår at bruge tid og penge."
+          "magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis"
         }
         image_local="professional-repairman-with-casing-wrench-during-inspection-repair-faucet-kitchen-plumbing-repairing-with-wrench-with-tool-belt-when-repairing-faucet-kitchen.jpg"
-        button={{ text: "Find håndværkere", link: "/" }}
+        button={{ text: "Lorem Ipsum", link: "/" }}
       />
       <main className="space-y-16 mt-10 mb-20">
         <Services
